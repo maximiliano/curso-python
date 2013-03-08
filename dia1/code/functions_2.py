@@ -1,7 +1,7 @@
 def somatorio(*argumentos):
     soma = 0
-    for i in argumentos:
-        soma += i
+    for argumento in argumentos:
+        soma += argumento
     print soma
 
 somatorio(2, 7, 20, 10, 5)

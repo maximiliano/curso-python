@@ -473,18 +473,18 @@
         <h2>Funções - continuação</h2>
         <div class="highlight">
 <pre><span class="k">def</span> <span class="nf">somatorio</span><span class="p">(</span><span class="o">*</span><span class="n">argumentos</span><span class="p">):</span>
-    <span class="n">soma</span> <span class="o">=</span> <span class="mi">0</span>
-    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">argumentos</span><span class="p">:</span>
-        <span class="n">soma</span> <span class="o">+=</span> <span class="n">i</span>
+    <span class="n">soma</span> <span class="o">=</span> <span class="mf">0</span>
+    <span class="k">for</span> <span class="n">argumento</span> <span class="ow">in</span> <span class="n">argumentos</span><span class="p">:</span>
+        <span class="n">soma</span> <span class="o">+=</span> <span class="n">argumento</span>
     <span class="k">print</span> <span class="n">soma</span>
 
-<span class="n">somatorio</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">7</span><span class="p">,</span> <span class="mi">20</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">5</span><span class="p">)</span>
+<span class="n">somatorio</span><span class="p">(</span><span class="mf">2</span><span class="p">,</span> <span class="mf">7</span><span class="p">,</span> <span class="mf">20</span><span class="p">,</span> <span class="mf">10</span><span class="p">,</span> <span class="mf">5</span><span class="p">)</span>
 
 <span class="k">def</span> <span class="nf">imprimir_opcoes</span><span class="p">(</span><span class="o">**</span><span class="n">chaves</span><span class="p">):</span>
     <span class="k">for</span> <span class="n">chave</span><span class="p">,</span> <span class="n">valor</span> <span class="ow">in</span> <span class="n">chaves</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
         <span class="k">print</span> <span class="s">&quot;chave: </span><span class="si">%s</span><span class="s">, valor: </span><span class="si">%s</span><span class="s">&quot;</span> <span class="o">%</span> <span class="p">(</span><span class="n">chave</span><span class="p">,</span> <span class="n">valor</span><span class="p">)</span>
 
-<span class="n">imprimir_opcoes</span><span class="p">(</span><span class="n">nome</span><span class="o">=</span><span class="s">&#39;John&#39;</span><span class="p">,</span> <span class="n">idade</span><span class="o">=</span><span class="mi">33</span><span class="p">)</span>
+<span class="n">imprimir_opcoes</span><span class="p">(</span><span class="n">nome</span><span class="o">=</span><span class="s">&#39;John&#39;</span><span class="p">,</span> <span class="n">idade</span><span class="o">=</span><span class="mf">33</span><span class="p">)</span>
 </pre></div>
     </div>
 
