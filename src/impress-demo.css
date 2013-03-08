@@ -184,6 +184,11 @@ a:focus {
     font-size: 30px;
     line-height: 36px;
     letter-spacing: -1px;
+
+    background-image: url('logo.png');
+    background-repeat: no-repeat;
+    background-position: 98% 98%;
+    background-size: 20% 3%;
 }
 
 .slide q {
