@@ -199,6 +199,13 @@ a:focus {
     margin-top: 100px;
 }
 
+.slide .github {
+    display: block;
+    font-size: 45px;
+    line-height: 72px;
+    margin-top: 20%;
+}
+
 .slide q strong {
     white-space: nowrap;
 }
